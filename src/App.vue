@@ -3,7 +3,8 @@
 <template>
   <div>
     <router-link :to="{ name: 'Page' }">GSAP</router-link> |
-    <router-link :to="{ name: 'Home' }">Home</router-link>
+    <router-link :to="{ name: 'Home' }">Home</router-link> |
+    <router-link :to="{ name: 'TextPlugin' }">Text Plugin</router-link>
   </div>
 
   <RouterView />

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import app from "../App.vue";
 import Page from "../views/ToPage.vue";
 import Home from "../views/Home.vue";
+import TextPlugin from "../views/TextPlugin"
 
 const routes = [
   {
@@ -14,6 +15,11 @@ const routes = [
     name: "Home",
     component: Home,
   },
+  {
+  path: "/textplugin",
+    name: "TextPlugin",
+    component: TextPlugin,
+  }
 ];
 
 const router = createRouter({
